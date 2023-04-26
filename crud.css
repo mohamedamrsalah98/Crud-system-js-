@@ -1,0 +1,175 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+/* =================== crud =================== */
+body {
+    background-color: #222;
+}
+
+.crud {
+    width: 80%;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+/* =================== header =================== */
+.header {
+    margin: 3% 0%;
+}
+
+.header h1 {
+    padding: 1% 0%;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.header p {
+    font-size: 120%;
+    text-transform: capitalize;
+}
+
+/* =================== inputs =================== */
+input {
+    background-color: #111;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.title {
+    width: 80%;
+    padding: .75% 1%;
+    border-radius: 10px;
+}
+
+.prices {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.prices input{
+    padding: .75% 2%;
+    margin: 1.5% 0%;
+    border-radius: 10px;
+}
+
+.total{
+    background-color:#a00d02 ;
+    height: fit-content;
+    padding: .5%  1% ;
+    margin-top: 1.5%;
+    margin-left: 1%;
+
+}
+.total::before{
+    content: "Total : ";
+    
+}
+.category,.count{
+    width: 80%;
+    padding: .75% 1%;
+    border-radius: 10px;
+    margin-bottom: 1.2% ;
+}
+.create{
+    border: none;
+    outline: none;
+    width: 81.5%;
+    border-radius: 15px;
+    padding: .75% 1%;
+    cursor: pointer;
+    background-color:#a00d02 ;
+    color: white;
+    transition: 1s;
+}
+.create:hover{
+    background-color: rgb(228, 20, 20) ;
+    letter-spacing: 2px;
+}
+/* =================== outputs =================== */
+
+.search{
+    width: 80%;
+    padding: .75% 1%;
+    border-radius: 10px;
+    margin: 1.5% 0%;
+}
+.btnSearch{
+    margin: auto;
+    width: 81.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.btnSearch button{
+    width: 45%;
+    padding: .75% 2%;
+    border-radius: 15px;
+    color: white;
+    background-color:#a00d02 ;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+.btnSearch button:hover{
+    background-color: rgb(228, 20, 20) ;
+    letter-spacing: 1.5px;
+}
+.deleteAll button{
+    width: 81.5%;
+    margin-top: 3%;
+  padding: .75% 0%;
+    border-radius: 15px;
+    color: white;
+    background-color:#a00d02 ;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+.deleteAll button:hover{
+    background-color: rgb(228, 20, 20) ;
+    letter-spacing: 1.5px;
+}
+/* =================== outputs table =================== */
+table{
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+   
+}
+table tr th {
+    padding: 2% 0%;
+    font-size: 120%;
+    text-transform: capitalize;
+    
+}
+table tr td {
+    padding: 1% 0%;
+  
+}
+ #update,#delete {
+    padding: 5% 20%;
+    border-radius: 15px;
+    color: white;
+    background-color:#a00d02 ;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+ 
+}
+#delete:hover{
+    background-color: rgb(228, 20, 20) ;
+    letter-spacing: 1.5px;
+}
+#update:hover{
+    background-color: rgb(228, 20, 20) ;
+    letter-spacing: 1.5px;
+}
+
+  
